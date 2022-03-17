@@ -41,6 +41,6 @@ if __name__ == '__main__':
 
         # Saving the image and mask stacks
         image_direction = 'dataset_stack/images/image_' + str(counter) + '.png'
-        mask_direction = 'dataset_stack/masks/mask_' + str(counter) + '.png'
+        mask_direction = 'dataset_stack/masks/image_' + str(counter) + '.png'
         image_stack.save(image_direction)
         mask_stack.save(mask_direction)
